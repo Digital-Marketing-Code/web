@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Agencia de Marketing</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+
+<body>
+    <header class="menu">
+        <div class="contenedor_logo">
+            <a href="index.html" class="logo_menu"><img src="img/logo.png" alt=""></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="portafolio.html">PORTAFOLIO</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle Menu">
+            <span class="fa fa-bars menu-icon"></span>
+        </button>
+    </header>
+    <main>
+        <section class="contenedor_portada">
+            <div class="subcontenedor_portada">
+                <h1 class="titulo_portada">Contáctanos</h1>
+                <p class="descripcion_portada">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, optio
+                    distinctio. Suscipit cupiditate temporibus voluptas.</p>
+                <a href="servicios.html" class="boton_portada">Nuestros Servicios</a>
+            </div>
+        </section>
+        <!-- SECION CONTACTO -->
+        <section class="contacto" id="contacto">
+            <div class="contenedor-general">
+                <div class="contenedor-info">
+                    <div class="contenedor-cont">
+                        <h2>CONTÁCTENOS</h2>
+                        <p>Atención de lunes a viernes de 9 a.m a 7 p.m y sábados de 9 a.m a 12 p.m</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon-info">
+                            <img src="img/location.svg" alt="">
+                        </div>
+                        <div class="text-info">
+                            <h3>Dirección</h3>
+                            <p>C. San Marcos 255, Pueblo Libre</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon-info">
+                            <img src="img/email.svg" alt="">
+                        </div>
+                        <div class="text-info">
+                            <h3>Email</h3>
+                            <p>aromconde@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon-info">
+                            <img src="img/phone.svg" alt="">
+                        </div>
+                        <div class="text-info">
+                            <h3>Teléfono</h3>
+                            <p>+51 952 346 983</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-form">
+                    <form id="form">
+                        <h2>ENVÍA UN CORREO</h2>
+                        <div class="inputbox">
+                            <input type="text" name="nombre" id="nombre" autocomplete="off" required>
+                            <span>Nombres y Apellidos</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="email" name="mail" id="mail" autocomplete="off" required>
+                            <span>Email</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="telefono" id="telefono" autocomplete="off" required>
+                            <span>Teléfono / Celular</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="asunto" id="asunto" autocomplete="off" required>
+                            <span>Asunto</span>
+                        </div>
+                        <div class="inputbox">
+                            <textarea name="mensaje" id="mensaje" autocomplete="off" required></textarea>
+                            <span>Mensaje</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" name="" value="ENVIAR">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION REDES SOCIALES -->
+        <section class="redes-sociales">
+            <h2 class="titulo-redes">Encuentranos en:</h2>
+            <div class="contenedor_redes">
+                <a href="https://api.whatsapp.com/send?phone=+51952346983&text=¡Hola!, deseo información sobre sus servicios."
+                    target="_blank" class="red"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" class="red"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="red"><i class="fab fa-instagram"></i></a>
+                <a href="https://x.com/" target="_blank" class="red"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+        <!-- SECCION INFORMACIÓN -->
+        <section class="informacion">
+            <h2 class="titulo-informacion">Información de Contacto</h2>
+            <div class="contenedor-informacion">
+                <div class="informacion-item">
+                    <div class="icono"><i class="fa fa-map-marker"></i></div>
+                    <h3>Dirección:</h3>
+                    <p>C. San Marcos 255</p>
+                    <p>Pueblo Libre - Lima - Peru</p>
+                </div>
+                <div class="informacion-item">
+                    <div class="icono"><i class="fa fa-envelope"></i></div>
+                    <h3>Correo:</h3>
+                    <p>aromconde@gmail.com</p>
+                    <p>marketingdigital@gmail.com</p>
+                </div>
+                <div class="informacion-item">
+                    <div class="icono"><i class="fa fa-phone"></i></div>
+                    <h3>Teléfono:</h3>
+                    <p>Personal: +51 952 346 983</p>
+                    <p>Empresa: +51 999 999 999</p>
+                </div>
+            </div>
+        </section>
+        <!-- SECION UBICACIÓN -->
+        <section class="ubicacion">
+            <div class="contenedor-ubicacion">
+                <h2 class="titulo_ubicacion">Nuestra Ubicación</h2>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.4807143859416!2d-77.07226120000001!3d-12.079207900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c90ef52c5c81%3A0x6f21e3f77a84a745!2sC.%20San%20Marcos%20255%2C%20Pueblo%20Libre%2015084!5e0!3m2!1ses!2spe!4v1720135621727!5m2!1ses!2spe"
+                allowfullscreen="" loading="eager" referrerpolicy="no-referrer-when-downgrade" title="Mapa de ubicación"
+                allow="geolocation"></iframe>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="footer__section">
+            <h2 class="footer__title">SOBRE NOSOTROS:</h2>
+            <p class="footer__txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum natus recusandae
+                voluptatum tempora quo culpa itaque, velit repudiandae esse maxime mollitia enim. Odit eum quos maxime
+                nam ipsum quae eligendi.</p>
+            <div class="social-media">
+                <h2 class="footer__title">REDES SOCIALES:</h2>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">UBICACIÓN:</h2>
+            <p class="footer__txt">Pasaje las Mercedarias, mz k lt 19, Chimbote</p>
+            <h2 class="footer__title">CONTACTOS: </h2>
+            <p class="footer__txt">Correo: marketing@digital.com</p>
+            <h2 class="footer__title">TELÉFONO: </h2>
+            <p class="footer__txt">Número: +51 999 999 999</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">ENLACES:</h2>
+            <a href="index.html" class="footer__link">Inicio</a>
+            <a href="portafolio.html" class="footer__link">Portafolio</a>
+            <a href="servicios.html" class="footer__link">Servicios</a>
+            <a href="contacto.html" class="footer__link">Contacto</a>
+        </div>
+        <p class="copy">&copy; 2024 MARKETING DIGITAL S.A.C</p>
+    </footer>
+    <!-- BOTON FLOTANTE DE WHATSAPP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <div class="nav-bottom">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <div class="popup-whatsapp fadeIn">
+            <div class="content-whatsapp -top">
+                <button type="button" class="closePopup">
+                    <i class="material-icons icon-font-color">close</i>
+                </button>
+                <p><i class="fa fa-user"></i> Hola, ¿en que podemos ayudarle? </p>
+            </div>
+            <div class="content-whatsapp -bottom">
+                <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..."
+                    autocomplete="off" />
+                <button class="send-msPopup" id="send-btn" type="button">
+                    <i class="material-icons icon-font-color--black">send</i>
+                </button>
+            </div>
+        </div>
+        <button type="button" id="whats-openPopup" class="whatsapp-button">
+            <div class="float">
+                <i class="fa fa-whatsapp my-float"></i>
+            </div>
+        </button>
+        <div class="circle-anime"></div>
+    </div>
+    <script src="js/boton_flotante.js"></script>
+</body>
